@@ -1,6 +1,21 @@
 # Graph-Recommendation-System
 This project is a movie recommendation system implemented in C++ that uses content-based filtering on a bipartite graph. It recommends movies to a user based on their previous ratings and the genres of movies they liked. The system leverages cosine similarity to compare genre frequencies, identifies similar movies, and ranks them based on average ratings.
 
+# 📋Overview
+
+This program reads movie ratings and genre data from CSV files and constructs a bipartite graph structure:
+
+1. Users and Movies are represented as nodes.
+   
+2. An edge between a user and a movie represents that the user rated the movie, along with the rating value.
+   
+The program then recommends movies to a specified user by:
+
+1. Calculating genre-based similarity between movies the user has rated and all other movies.
+
+2. Finding movies with the highest similarity scores.
+   
+3. Sorting these movies by their average ratings and displaying the top recommendations.
 
 # 🚀Features
 
