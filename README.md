@@ -10,6 +10,13 @@ This project is a movie recommendation system implemented in C++ that uses conte
 
 **Top Recommendations**: Selects the top 40 similar movies, ranks them by average rating, and presents the top 5 to ensure quality recommendations.
 
+# File Structure
+**main.cpp**: Contains the implementation of the bipartite graph, data handling, and recommendation logic.
+
+**ratings.csv**: Input file containing user ratings in the format: userId,movieId,rating.
+
+**movies_cleaned.csv**: Input file containing movie details in the format: movieId,title,genres.
+
 # Requirements
 Python 3.x
 
@@ -25,4 +32,18 @@ C++ compiler
    ```bash
    git clone https://github.com/PrajnaAgrawal26/Graph-Recommendation-System.git
    cd Graph-Recommendation-System
+   
+2. Ensure you have a C++ compiler installed (e.g., g++, clang++).
+   
+3. Place ratings.csv and movies_cleaned.csv in the same directory as main.cpp.
+
+
+# Usage
+**Compile the program**:
+\g++ main.cpp -o MovieRecommendation
+
+**Run the executable**:
+\./MovieRecommendation
+
+Enter a User ID when prompted to receive movie recommendations.
    
