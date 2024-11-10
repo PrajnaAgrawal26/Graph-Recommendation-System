@@ -10,6 +10,14 @@ This project is a movie recommendation system implemented in C++ that uses conte
 
 **Top Recommendations**: Selects the top 40 similar movies, ranks them by average rating, and presents the top 5 to ensure quality recommendations.
 
+# Requirements
+Python 3.x
+
+FastAPI
+
+Uvicorn (for running FastAPI)
+
+C++ compiler
 
 ## Installation
 
