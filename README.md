@@ -47,7 +47,7 @@ The program then recommends movies to a specified user by:
    
 6. unordered_map<int, string> movieTitles: Maps a movie ID to its title.
 
-# Algorithms used
+# 📚Algorithms used
 **1. Cosine Similarity for Genre Matching**
 
 **Algorithm:**
