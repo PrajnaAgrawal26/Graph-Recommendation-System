@@ -67,7 +67,7 @@ Uvicorn (for running FastAPI)
 
 C++ compiler
 
-## Installation
+# 💻Installation
 
 1. **Clone the repository**:
    ```bash
