@@ -11,11 +11,10 @@ This project is a movie recommendation system implemented in C++ that uses conte
 **Top Recommendations**: Selects the top 40 similar movies, ranks them by average rating, and presents the top 5 to ensure quality recommendations.
 
 
-# Project Structure:
-The project contains the following main files:
+## Installation
 
-**main.cpp**: Main C++ code that builds the bipartite graph, computes genre frequencies, calculates cosine similarity, and generates recommendations.
-
-**ratings.csv**: CSV file with columns UserID,MovieID,Rating.
-
-**movies_cleaned.csv**: CSV file with columns MovieID,Title,Genres.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/PrajnaAgrawal26/Graph-Recommendation-System.git
+   cd Graph-Recommendation-System
+   
