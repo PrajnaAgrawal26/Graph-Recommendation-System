@@ -55,6 +55,7 @@ The program then recommends movies to a specified user by:
 The cosineSimilarity function calculates the cosine similarity between two genre frequency vectors: one for the user and one for each movie.
 It computes the dot product of the two vectors and normalizes it by the magnitudes of each vector.
 The result is a similarity score between 0 and 1.
+
 **Purpose**: Cosine similarity quantifies how similar a movie’s genre profile is to the user’s preferences.
 
 # Requirements
