@@ -9,3 +9,13 @@ This project is a movie recommendation system implemented in C++ that uses conte
 **Cosine Similarity Calculation**: Calculates similarity between user and movie genre vectors, ensuring recommendations closely align with the user's taste.
 
 **Top Recommendations**: Selects the top 40 similar movies, ranks them by average rating, and presents the top 5 to ensure quality recommendations.
+
+
+# Project Structure:
+The project contains the following main files:
+
+**main.cpp**: Main C++ code that builds the bipartite graph, computes genre frequencies, calculates cosine similarity, and generates recommendations.
+
+**ratings.csv**: CSV file with columns UserID,MovieID,Rating.
+
+**movies_cleaned.csv**: CSV file with columns MovieID,Title,Genres.
