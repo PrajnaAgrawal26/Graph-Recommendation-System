@@ -106,11 +106,11 @@ Average Rating
 
 # 👨‍💻 Author
 
-Polimetla Eshikha
+Polimetla Eshikha(B23CS1053)
 
-Penmetsa Navyasri 
+Penmetsa Navyasri(B23CS1052)
 
-Prajna Agrawal
+Prajna Agrawal(B23CS1054)
 
 
 
